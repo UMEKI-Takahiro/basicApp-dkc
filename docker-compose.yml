@@ -27,7 +27,7 @@ services:
     container_name: "basicApp-app"
     build:
       context: "../basicApp-app/"
-      dockerfile: "Dockerfile"
+      dockerfile: "Dockerfile.local"
     volumes:
       - ../basicApp-app:/app
       - /app/node_modules
